@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: hariapp
-        image: "ravigokana/udemy-app:{{DOCKER_TAG}}"
+        image: "ravigokana/udemy-app:{{rg}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
